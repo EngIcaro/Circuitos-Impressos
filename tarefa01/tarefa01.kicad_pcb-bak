@@ -3,7 +3,7 @@
   (general
     (thickness 1.6)
     (drawings 0)
-    (tracks 5)
+    (tracks 0)
     (zones 0)
     (modules 18)
     (nets 48)
@@ -193,15 +193,6 @@
     (add_net "Net-(U1-Pad8)")
     (add_net "Net-(U1-Pad9)")
     (add_net VDD)
-  )
-
-  (net_class fina ""
-    (clearance 0.2)
-    (trace_width 0.2)
-    (via_dia 0.8)
-    (via_drill 0.4)
-    (uvia_dia 0.3)
-    (uvia_drill 0.1)
   )
 
   (module Capacitor_SMD:C_0201_0603Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5CF67912)
@@ -980,11 +971,5 @@
       (rotate (xyz 0 0 0))
     )
   )
-
-  (segment (start 147.32 144.78) (end 149.86 142.24) (width 0.25) (layer F.Cu) (net 1))
-  (segment (start 142.56 144.78) (end 147.32 144.78) (width 0.25) (layer F.Cu) (net 1))
-  (segment (start 141.92 144.78) (end 141.92 142.56) (width 0.25) (layer F.Cu) (net 5))
-  (segment (start 142.269991 142.210009) (end 142.269991 142.190001) (width 0.25) (layer F.Cu) (net 5))
-  (segment (start 141.92 142.56) (end 142.269991 142.210009) (width 0.25) (layer F.Cu) (net 5))
 
 )
